@@ -70,6 +70,13 @@ body {
     text-align: center;
     width: 34px;
     color: #63F883;
+    /*
+    color: if(var(value:"X"): red;
+    #color: if(var(value), "X"): red;
+    #else: green;
+     */
+);
+
 }
 
 .board-row:after {
